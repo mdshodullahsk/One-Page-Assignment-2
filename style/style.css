@@ -51,6 +51,7 @@ body {
         display: inline-block;
         padding: 50px 50px;
         background-color: #fefefe;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
     }
     .search-domain h1 {
         font-size: 40px;
@@ -92,6 +93,7 @@ body {
     .our-service {
         display: flex;
         margin: 20px 100px;
+
     }
     #our {
         text-align: center;
@@ -105,6 +107,7 @@ body {
         background-color: #dadce7;
         margin-left: 20px;
         padding: 30px;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
     }
    
     #share {
@@ -137,6 +140,7 @@ body {
     background-color: #dadce7;
     margin-left: 20px;
     padding: 40px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 table tr, td {
     /* padding: 10px; */
@@ -171,6 +175,7 @@ table tr, td {
     margin-left: 50px;
     padding: 40px 40px 40px 80px;
     background-color: #dadce7;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 
 #globel {
@@ -178,6 +183,7 @@ table tr, td {
     padding: 40px 40px 40px 80px;
     background-color: #dadce7;
     margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 
 /* #position {
@@ -198,12 +204,14 @@ table tr, td {
     margin-right: 50px;
     padding: 40px 80px 40px 40px;
     background-color: #dadce7;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 #dedicated-suppport {
     margin-right: 50px;
     padding: 40px 80px 40px 40px;
     background-color: #dadce7;
     margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 .devion-three img {
     width: 100%;
