@@ -22,7 +22,7 @@ body {
     margin: 0%;
 }
 #cover p {
-    padding-right: 800px;
+    padding-right: 400px;
     margin-bottom: 40px;
 }
 #get-stared {
@@ -62,12 +62,15 @@ body {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
         border: 0.5px solid blanchedalmond;
+        margin-right: 0px;
         
     }
     #domain-name {
         border: 0.5px solid blanchedalmond;
         padding: 10px;
-        margin: 0px;
+        border-right: none;
+        border-left: none;
+        margin-left: 0px;
     }
     #search {
         padding: 12px 20px;
@@ -80,6 +83,9 @@ body {
         display: inline-block;
         margin-top: 20px;
         margin-bottom: 80px;
+    }
+    .span-color {
+        color: #0254db;
     }
 
     /* Section three our Service */
@@ -133,13 +139,18 @@ body {
     padding: 40px;
 }
 table tr, td {
-    padding: 10px;
+    /* padding: 10px; */
+    padding-right: 10px;
+    font-size: 10px;
 }
 .btn-order {
     background-color: #828ed1;
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
+}
+.month {
+    font-size: 10px;
 }
 
 /* section five */
@@ -153,7 +164,7 @@ table tr, td {
 }
 .half-two img {
     width: 100%;
-    margin-top: 120px;
+    padding-top: 200px;
 }
 #uptime {
     margin-top: 40px;
