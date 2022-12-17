@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section One Cover */
+
+#cover {
+    margin: 0%;
+    background-image: url(/photos/cover-photo.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 190px;
+    padding-bottom: 176px;
+    padding-left: 100px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+#cover h1 {
+    font-size: 40px;
+    margin: 0%;
+}
+#cover p {
+    padding-right: 800px;
+    margin-bottom: 40px;
+}
+#get-stared {
+    padding: 17px 27px;
+    background-color: #092eee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#pricing-pans {
+    padding: 15px 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    }
+
+    /* Section two Search Your domain */
+    .search-domain {
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        background-color: #f6f5fa;
+    }
+    #searcs-box {
+        display: inline-block;
+        padding: 50px 50px;
+        background-color: #fefefe;
+    }
+    .search-domain h1 {
+        font-size: 40px;
+        padding-top: 70px;
+        margin-top: 0%;
+    }
+    #search-name {
+        padding: 10px 40px 10px 10px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 0.5px solid blanchedalmond;
+        
+    }
+    #domain-name {
+        border: 0.5px solid blanchedalmond;
+        padding: 10px;
+        margin: 0px;
+    }
+    #search {
+        padding: 12px 20px;
+        background-color: #092eed;
+        border: none;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+.search-domain span {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    /* Section three our Service */
+    .our-service {
+        display: flex;
+        margin: 20px 100px;
+    }
+    #our {
+        text-align: center;
+    }
+    #our p {
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    .half {
+        width: 33.5%;
+        background-color: #dadce7;
+        margin-left: 20px;
+        padding: 30px;
+    }
+   
+    #share {
+        margin-left: 0px;
+    }
+    /* vps hosting */
+    #vps-hosting {
+        margin-top: 0px;
+    }
+  /* Section three our Service End*/
+
+/* Section Four Hosting */
+#share-heading {
+    text-align: center;
+}
+
+#share-heading p {
+    padding-left: 220px;
+    padding-right: 220px;
+}
+#division {
+    display: flex;
+    margin: 20px 100px;
+}
+#share {
+    margin-left: 0px;
+}
+.devion-three {
+    width: 33.5%;
+    background-color: #dadce7;
+    margin-left: 20px;
+    padding: 40px;
+}
+table tr, td {
+    padding: 10px;
+}
+.btn-order {
+    background-color: #828ed1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* section five */
+#sec-five {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.half-two {
+    width: 50%;
+}
+.half-two img {
+    width: 100%;
+    margin-top: 120px;
+}
+#uptime {
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 40px 40px 40px 80px;
+    background-color: #dadce7;
+}
+
+#globel {
+    margin-left: 50px;
+    padding: 40px 40px 40px 80px;
+    background-color: #dadce7;
+    margin-top: 40px;
+}
+
+/* #position {
+    position: static;
+    right: 300px;
+    z-index: 1;
+   
+} */
+
+/* Section Six */
+#sec-six {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#web-asset {
+    margin-top: 60px;
+    margin-right: 50px;
+    padding: 40px 80px 40px 40px;
+    background-color: #dadce7;
+}
+#dedicated-suppport {
+    margin-right: 50px;
+    padding: 40px 80px 40px 40px;
+    background-color: #dadce7;
+    margin-top: 40px;
+}
+.devion-three img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: white;
+    background-color: #0254db;
+}
