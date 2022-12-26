@@ -4,7 +4,22 @@ body {
 }
 
 /* Section One Cover */
-
+#nav {
+    /* position: absolute; */
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #0254db;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
 #cover {
     margin: 0%;
     background-image: url(/photos/cover-photo.jpg);
@@ -143,9 +158,9 @@ body {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 table tr, td {
-    /* padding: 10px; */
-    padding-right: 10px;
-    font-size: 12px;
+    padding: 10px;
+    /* padding-right: 10px; */
+    font-size: 15px;
 }
 .btn-order {
     background-color: #828ed1;
@@ -171,11 +186,31 @@ table tr, td {
     padding-top: 200px;
 }
 #uptime {
+    position: relative;
     margin-top: 40px;
     margin-left: 50px;
     padding: 40px 40px 40px 80px;
     background-color: #dadce7;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
+}
+/* #uptime img (
+    hight: 20px;
+    wight: 20px:
+) */
+#sec-four {
+    position: relative;
+}
+.position {
+    position: absolute;
+    right: 600px;
+    top: 115px;
+    z-index: 1;
+}
+.position-two {
+    position: absolute;
+    right: 600px;
+    top: 360px;
+    z-index: 1;
 }
 
 #globel {
@@ -186,14 +221,22 @@ table tr, td {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 }
 
-/* #position {
-    position: static;
-    right: 300px;
-    z-index: 1;
-   
-} */
-
 /* Section Six */
+#section-six {
+    position: relative;
+}
+.position-three {
+    position: absolute;
+    left: 600px;
+    top: 155px;
+    z-index: 1;
+}
+.position-foure {
+    position: absolute;
+    left: 600px;
+    top: 410px;
+    z-index: 1;
+}
 #sec-six {
     display: flex;
     margin-left: 100px;
@@ -222,4 +265,5 @@ footer {
     padding: 30px 0 30px 0;
     color: white;
     background-color: #0254db;
+  
 }
